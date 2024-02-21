@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Exercise2 {
     public static void main(String[] args) {
-        Scanner in =new Scanner(System.in);
+        Scanner in = new Scanner(System.in);
         System.out.println("Enter three numbers");
       int greatestNum = greatestNum(in.nextInt(), in.nextInt(), in.nextInt());
       System.out.println("the greatest number is "+ greatestNum);
